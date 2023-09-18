@@ -1,0 +1,54 @@
+'''
+# # Imutáveis - str, int, float bool tuple
+# # mutaveis - list and dict 
+'''
+# python é case sentitive 
+
+# Depois do print, ja é adicionado o caractere de pular linha (\n ou \r\n)
+# Dentro da função print, podemos ter:
+#     Mais de um argumento
+#     sep="" - indica o separador de argumento
+#     end="" indica qual caractere sera colocado ao final do print 
+
+# type() = classe que retorna o tipo do conteúdo dentro do type
+
+# ctrl shift p
+
+# ctrl ; -> coloca as linhas como comentarios 
+
+# typecast = conversão de numero
+
+# Para fazer comentarios de muitas linhas basta colocar 3 aspas duplas/simples para abrir e fechar o comentarios
+# ou usar # para comentar uma linha 
+
+# Linguagem de tipagem dinâmica como o phyton, indica que a linguagem reconhece os tipos de variáveis
+# Não é necessário indicar o tipo de variavel
+
+# setting -> glyph -> Margem para marcação de breakpoint7
+
+# Padding -> formda de edição de dados no formato "(:(sinal de formatação < ^ >) e quantidade de caracteres)"
+# sinal de ^ significa que o que vc escreveu deve ficar ao centro
+
+# ********** LEMBRAR - FORMAT É UMA FUNÇÃO DE STR ---------- 
+'''
+Para pular uma linha no codigo para continuar codando na linha de baixo, basta escrever uma \
+exp:
+print("qualquer coisa\
+        testando")
+
+        
+Lista = funciona como veetores, e podem ser alterados, não são imutáveis como strings
+
+append() = metodo de uma lista para adicionar um elemento na ultima posição da lista
+pop() = metodo de uma lista para remover o ultimo elemento da sua lista [podendo eliminar um indice
+qualquer, informando-o nos ()parenteses. EXP pop(3)]
+
+para colocar o indice nas listas:
+ pegue o range de uma lista x
+ indice = range(len(x))
+
+ depois concatene com a lista na hora de imprimir
+
+ for i in indice:
+        print(i, x[indice])
+'''
