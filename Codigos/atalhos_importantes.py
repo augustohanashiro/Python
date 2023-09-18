@@ -16,4 +16,5 @@ ctrl + "'" -> abrir o terminal
 Imutáveis - str, int, float bool tuple
 Mutaveis - list and dict 
 
+"." no git, abre uma aba como se fosse o vs code no navegador
 '''
