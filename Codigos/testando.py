@@ -1,4 +1,4 @@
-string = "augusto"
+def teste(*args):
+    print(args[0])
 
-print(hasattr(string,"upper"))
-print(getattr(string,"upper")())
+teste(1,2,5,4,5)
