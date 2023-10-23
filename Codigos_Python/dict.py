@@ -60,7 +60,13 @@ for chave in pessoa :
 
 '''
 Funções de dic 
-get() - para saber se temos uma chave no dicionario 
+dicionario["Nomechave"] - Retorna o conteudo com o nome da chave passada
+S                         Se a chave não existir, gera uma keyerror
+get("chave") - para saber se temos uma chave no dicionario com o nome pasasdo
+               se não tiver a chave, retorna None (Bom para fazer if ->
+                if dicionario.get("chave") is None)
+
+
 values() - retorna apenas os valores de um dicionario 
 keys() - retorna as chaves do dicionario 
 setdefault() - se tiver uma chave onde não ha valor, setar um valor padrão, ou criar e chave e valor
@@ -73,7 +79,5 @@ Para fazer uma copia total, é preciso importar o modulo copy e utilizar o méto
 
 popitem() = elimina a ultima chave do dict
 
-update(){
-    "Chave" : "valor",
-}
+dicionario.update({"Chave" : "valor",}, ou passar um dicionario)
 ''' 
